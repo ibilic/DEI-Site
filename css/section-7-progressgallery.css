@@ -1,0 +1,77 @@
+	.section-6{width:100%}
+	.slidshow-wrapper{
+		position: relative;
+	}
+	/*Buttons*/
+	.section-6 .next,.section-6 .prev{
+		z-index: 2;
+		/*top: -86px;
+		cursor:pointer;
+		max-width:70px;
+		padding:12px;
+		font-weight:700;
+	
+		transition:.6s ease;
+		background-color:#ffcb09;
+		color:#063262;
+		border-radius:100%;
+		-webkit-transform:translateY(290%);transform:translateY(290%);position:absolute;z-index:2
+		;*/
+	}
+	.section-6 .prev{
+		/*margin-left:1em;*/
+	}
+	.section-6 .next{
+		/*margin-right:1em;*/
+		right:0;
+	}
+	.section-6 .next:hover,.section-6 .prev:hover{opacity:.5}
+
+	.section-6 .slideshow-container .photo-container img{width: 100%;height: 200px;object-fit: cover;}
+	.section-6 .slideshow-container .content{padding:2em;color:#fff;background-color:#5C9386}
+
+
+	/*.w3-button, */
+	.w3-bar .w3-bar-item {
+		padding: 8px 14px !important;
+		margin: 0 !important;
+	}
+	.w3-button:hover, .mini_active{
+		background-color: #587ABC !important;
+		color: #fff !important;
+	}
+
+@media screen and (min-width:600px){
+	.section-6 .slideshow-container{
+		z-index:1;
+		position:relative;
+		display:flex;
+		flex-direction: row;
+		height:500px;
+	}
+	.section-6 .slideshow-container .photo-container{
+		flex: 1 1 0;
+	}
+	.section-6 .slideshow-container .photo-container img{height: 100%;}
+
+	.section-6 .slideshow-container .mySlides{display:none}
+	/*.section-6 .slideshow-container .fade{-webkit-animation-name:fade;-webkit-animation-duration:1.5s;animation-name:fade;animation-duration:1.5s}*/
+	/*@-webkit-keyframes fade{0%{opacity:.4}to{opacity:1}}@keyframes fade{0%{opacity:.4}to{opacity:1}}*/
+	/*.section-6 .slideshow-container img{
+		z-index:5;
+		height:100%;
+		width:100%;}*/
+	.section-6 .slideshow-container .content{
+		flex: 1 1 0;
+		padding-right: 70px;
+	}
+	.section-6 .slideshow-container .content .initiatives{
+		box-sizing: border-box;
+		height:auto;
+		width:100%
+	}
+	.section-6 .slideshow-container .content .statement{font-weight:200;font-style:italic;}
+	.section-6 .slideshow-container .content .statement .people{margin-top:1em;float:right}
+	.section-6 .next,.section-6 .prev{
+		top: 100px;
+}
