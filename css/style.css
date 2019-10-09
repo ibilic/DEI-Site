@@ -1,0 +1,547 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+*/html, body, h1, h2, h3, h4, h5, h6 {
+	font-family: Roboto !important;
+  }
+ body,html{font-family:Roboto,sans-serif !important;height:100%;margin:0;background-color:#E5E5E5}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	
+	box-sizing: border-box; 
+}
+/*mobile version*/
+.black{
+	color: #000;
+}
+.white{
+	color:#fff;
+}
+.yellow{color:#ffcb05;}
+
+h2{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px;
+	text-align: center;
+}
+h3{
+	font-size: 18px;
+	font-weight: bold;
+}
+hr{margin: 10px 0; border: 2px solid #fff;}
+.section-content{padding:35px}
+
+/*Header*/
+.section-1{height: 100%;top:0;left:0;right:0;background-image:url(https://cdn.glitch.com/ecc64be7-b123-48af-b12c-f00e1afe3cdb%2Fheader.jpg?v=1570545172968);max-height:100%;background-position:50%;background-repeat:no-repeat;background-size:cover}
+
+.section-1 .header-content {
+	display:flex;
+	flex-direction: column;
+  justify-content: center;
+	margin:0 auto;
+	color:#fff;
+	position:absolute;
+	bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);
+	width:100%;
+	height:auto;
+	background-color:#00274cd4;
+  border-radius: 50px 50px 0 0;
+}
+.section-1 .header-content img {
+width: 15%;
+height: auto;
+}
+.section-1 .dei-logo{
+  width: 100%;
+  padding: 20px;
+}
+/*.section-1 .header-content .content-container{padding:10px;}*/
+.section-1 .header-content .content-container .maintitle{
+	font-size:24px;font-weight:700;line-height:1.2em;}
+.section-1 .header-content .content-container .maintitle .size{font-size: 48px;line-height:1.2em;}
+.section-1 .header-content .content-container hr{margin: 10px 0; border: 2px solid #fff;}
+.section-1 .header-content .content-container .subtitle{font-weight:lighter;}
+
+/*Introduction*/
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  z-index: 2;
+}
+
+.iframe-container iframe, .iframe-container video {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+   z-index: 2;
+}
+ 
+.section-2, .section-11{
+	position:relative;
+	color:#dfdfdf;
+}
+.section-2 .section-2-content{
+	background-color: #5C9386;
+    padding: 20px;
+    top: 90px;  
+    position: absolute;
+}
+.section-2-background{
+	background: linear-gradient(#00274cd4, #00274cd4), url(https://cdn.glitch.com/ecc64be7-b123-48af-b12c-f00e1afe3cdb%2Fbg-section2.jpg?v=1570545202673) no-repeat fixed;
+	background-size: cover;;
+	width: 100%;
+	height: 550px;
+	position: relative;
+	z-index: 1;
+}
+.img-back{
+	position: relative;
+	z-index: 0;
+}
+
+/*Overarching Strategies - Section 4*/
+.section-4{
+	background: linear-gradient(#00274cd4, #00274cd4), url(https://cdn.glitch.com/ecc64be7-b123-48af-b12c-f00e1afe3cdb%2FMESA_SALAM_Nov2018.jpg?v=1570545229847) no-repeat fixed;
+	background-size: cover;
+	padding: 2%;
+	color: #fff;
+}
+.section-4-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.section-4-content .box{
+	flex: 1 1 0;
+	margin: 10px;
+	background: #5C9386;
+	padding: 18px;
+}
+
+.section-4-content .box p{
+	font-size: 18px;
+}
+
+/*Progress Highlights Gallery - Section 6 -> progressgallery.css file*/
+
+/*Plan in Action - Section 7*/
+.section-7{
+	background-color: #002D5E;
+    padding: 50px 0 0 0;
+}
+.section-7 h2{
+	color: #fff !important;
+}
+.section-7 p{
+	max-width: 800px;
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+}
+.section-7 img{
+	display: block;
+	margin: 50px auto;
+	max-width: 90%
+}
+.section-7 .section-7-content{
+	background-color: #E5E5E5;
+	text-align: center;
+}
+
+.plan.button {
+  display: inline-block;
+  border-radius: 50em;
+  background-color: #c8c8c8;
+  border: none;
+  color: #002D5E;
+  text-align: center;
+  padding: 10px 15px;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+.plan.button:hover{
+    background-color: #587ABC;
+    color: #fff;
+  }
+.plan.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.plan.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+}
+
+.plan.button:hover span {
+  padding-right: 25px;
+}
+
+.plan.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*50 Units - Section 8*/
+.section-8 {
+	padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #002D5E;
+    flex-direction: column;
+  	position: relative;
+}
+.eqWrap {
+	display: flex;
+	justify-content: center;
+	padding: 0 23px;
+}
+
+.eq {
+	padding: 10px;
+ 	background: #ffcb05;
+}
+.eq:hover{
+	background: #fbfaf9;
+}
+.units {
+	flex-wrap: wrap;
+}
+.equalHMV {
+	width: 23%;
+	height: 80px;
+	margin: 1%;	
+	text-align: center;
+	position: relative;
+}
+.equalHMV a{
+	width: 95%;
+	font-weight: bold;
+	font-size: 13px !important;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*Metics Infographics - Section 9*/
+.section-9-content{
+	background-color: #F3E8D4;
+	display: flex;
+	justify-content: center;
+	flex-direction: column-reverse;
+}
+.metric-buttons{
+	flex:1 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+.metric {display: none}
+.metricbtn {
+  width: 33%;
+  vertical-align:middle;
+  display: block;
+  margin: 5px auto;
+  border-radius: 50em;
+  background-color: #DDDDDD;
+  border: none;
+  color: #002D5E;
+  text-align: center;
+  font-size: 12px;
+  padding: 6px;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+.active, .metricbtn:hover {
+  background-color: #587ABC !important;
+  color: #fff !important;
+}
+.metric-imgs{
+	background-color: #F3E8D4;
+	flex:2.5 0 0;
+}
+.metric-imgs .metric{
+	max-width: 100%
+}
+
+/*Progress in Pictures - Section 10*/
+.section-10{
+	background-color: #002D5E;
+	overflow: auto; 
+}
+.section-10 .w3-third{
+	position: relative;
+}
+.w3-col, .w3-half, .w3-third, .w3-twothird, .w3-threequarter, .w3-quarter {
+    width: 33.3% !important;
+}
+.section-10 .overlay-img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #00274C;
+}
+.section-10 .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.w3-third:hover .overlay-img{
+	opacity: .8;
+	/*background-color: #587ABC;*/
+}
+/*.w3-third:hover{
+	background-color: red;
+}*/
+.section-10 img{
+  padding: 0 0!important;
+  width:100%;
+  height: 225px;
+  object-fit: cover;
+  cursor:pointer
+}
+/*.section-10 img:hover{
+  background-color: blue;
+}*/
+.section-10 #img01{
+width:100%;
+height: 500px !important;
+}
+
+
+/* Wrap the image and alt text */
+/* Will be added with js */
+.alt-wrap { 
+  display: block;
+  position: relative;
+  color: #fff;
+}
+
+/* The alt text itself */
+/* Will be added with js */
+.alt-wrap p.alt {
+  position: absolute;
+  opacity: 0; /* hide initially */
+  left: 0; right: 0; bottom: 0;
+  margin: 0;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 22px;
+  background-color: #00274C;
+  transition: all 300ms ease;
+  transition-delay: 300ms;
+}
+
+/* Hovering over the wrapper shows its alt p*/
+.alt-wrap:hover > p.alt { 
+  opacity: 1; 
+  transition-delay: 0s;
+}
+
+
+ /*section 11*/
+
+.iframe-container-2 {
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.iframe-container-2 video {
+    border: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+ }
+ .section-11-background{
+	background: linear-gradient(#00274cd4, #00274cd4), url(https://cdn.glitch.com/ecc64be7-b123-48af-b12c-f00e1afe3cdb%2Fbg-section11.png?v=1570547004748) no-repeat fixed;
+	background-size: cover;;
+	width: 100%;
+  padding-top: 4em;
+	/*height: 427px;*/
+}
+.section-11-content{
+	background-color: #5C9386;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/*Learn More Section 12*/
+.section-12{
+	  background: linear-gradient(#00274cd4, #00274cd4), url(https://cdn.glitch.com/ecc64be7-b123-48af-b12c-f00e1afe3cdb%2Fbg-section11.png?v=1570547004748) no-repeat fixed;
+    padding: 31px 31px 116px 31px;
+
+}
+.learn-more-content{
+    background-color: #dfdfdf;
+    max-width: 800px;
+    padding: 30px;
+    margin: 0 auto;
+}
+.section-12 .buttons{
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-12 .plan.button{
+	width: 300px !important;
+	background-color: #ffcb05;
+}
+.section-12 .plan.button:hover{
+	color: #000 !important;
+}
+
+footer{
+	margin-top: -32px;
+	color:#fff;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: #063262;
+}
+
+
+
+/*Larger Screen size (tablet & desktop)*/
+@media screen and (min-width:600px){
+	/*Header - Section 1*/
+	.section-1{background-position:0;height:100%;position:relative}
+	.section-1 .dei-logo{width: 30%;}
+	.section-1 .header-content{flex-direction: row; max-width: 70%;bottom:2em; border-radius: 50px;}
+	.section-1 .header-content img {/*width: 20%;*/height: 20%;align-self: center;}
+    .section-1 .header-content .content-container{margin-left: 2em;align-self: center;}
+	.section-1 .header-content .content-container .maintitle .size{font-size:2em}
+	.section-1 .header-content .content-container .maintitle{font-size:1.5em}
+	.section-1 .header-content .content-container .subtitle{margin-top:1em;}
+	/*Introduction - Section 2*/
+	.iframe-container {
+	  /*overflow: hidden;*/
+	  padding-top: 33.25%;
+	  /*position: relative;*/
+	  /*z-index: 2;*/
+	  max-width: 750px;
+	  margin: 0 auto;
+	}
+
+	.iframe-container iframe, .iframe-container video {
+	   border: 0;
+	   left: 0;
+	   position: absolute;
+	   top: 0;
+	   z-index: 2;
+	}
+	 
+	.section-2, .section-11{
+/*		position:relative;
+*/		color:#dfdfdf;
+	}
+	.section-2 .section-2-content, .section-11 .section-11-content{max-width: 800px;}
+	.section-2-background{
+		display: flex;
+		justify-content: center;
+		height: 390px;
+	}
+	.img-back{
+		position: relative;
+		z-index: 0;
+	}
+
+	/*Overarching Strategies - section 4*/
+	.section-4{
+	padding: 30px 20%;
+	}
+	.section-4-content{
+		flex-direction: row;
+	}
+
+	/*Metrics Infographics - Section 9*/
+	.section-9-content{flex-direction: row;
+	}
+	.metric-buttons{
+	    flex-direction: column;
+	    margin: 10px;
+	}
+	.metricbtn {
+	  width: 90%;
+	  margin: 2% auto;
+	  font-size: 18px;
+	  padding: 8px;
+	}
+	.metric-imgs{   
+		align-self: center;
+	}
+
+
+ /*section 11*/
+/* .section-11 video{
+ 	max-width: 750px;
+    position: relative;
+    z-index: 2;
+ }
+ .section-11-background{
+ 	overflow: auto;
+	background: linear-gradient(#00274cd4, #00274cd4), url(../images/bg-section11.png) no-repeat fixed;
+	background-size: cover;;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 450px;
+	height: 600px !important;
+}
+.section-11-content{
+	position: relative;
+	background-color: #5C9386;
+    padding: 20px;
+    top: 90px;  
+}*/
+
+	/*Learn More Section*/
+	/*.learn-more-content{
+		background-color: #dfdfdf;
+	    max-width: 800px;
+	    padding: 50px;
+	    margin: 100px auto;
+
+	}*/	
+
+	/*Section 12*/
+	.section-12{
+\	}
+	.section-12 .buttons{
+	    flex-wrap: nowrap;
+	}
+	footer{
+	}
+
+}
